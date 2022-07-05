@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*
 # YOLOv5 🚀 by Ultralytics, GPL-3.0 license
 """
 Train a YOLOv5 model on a custom dataset.
@@ -21,7 +22,6 @@ import time
 from copy import deepcopy
 from datetime import datetime
 from pathlib import Path
-
 import numpy as np
 import torch
 import torch.distributed as dist
